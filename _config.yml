@@ -21,12 +21,12 @@ title_separator: "-"
 subtitle: "verson 1.0" # site tagline that appears below site title in masthead
 name: "유지영(Yoo Jiyoung)"
 description: "유지영의 웹 포트폴리오 사이트입니다."
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://y00ooo.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: "https://github.com/y00ooo/y00ooo.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: # overrides the website title displayed in the masthead, use " " for no title
+masthead_title: "유지영의 웹 포트폴리오" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
 comments:
@@ -103,52 +103,34 @@ analytics:
 
 # Site Author
 author:
-  name: "Your Name"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
-  location: "Somewhere"
-  email:
+  name: "유지영 (Yoo Jiyoung)"
+  avatar: "/assets/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "한줄소개"
+  location: "Seoul, South Korea"
+  email: "y00ooo@snu.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:y00ooo@snu.ac.kr"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://y00ooo.github.io/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/y00ooo"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:y00ooo@snu.ac.kr"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://y00ooo.github.io/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/y00ooo"
 
 # Reading Files
 include:
