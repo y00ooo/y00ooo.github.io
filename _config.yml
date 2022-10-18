@@ -104,8 +104,8 @@ analytics:
 # Site Author
 author:
   name: "유지영 (Yoo Jiyoung)"
-  avatar: "/assets/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "간호학, HCI, UX를 공부하고 있습니다. <br> 디지털 헬스케어 UX 연구자가 되는 게 **꿈**이에요!"
+  avatar: "/assets/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "간호학, HCI, UX를 공부하고 있습니다. <br> 디지털 헬스케어 UX 연구자가 되는 게 **꿈**이어요!"
   location: "Seoul, South Korea"
   email: "y00ooo@snu.ac.kr"
   links:
