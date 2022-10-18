@@ -20,7 +20,7 @@ title: "유지영의 웹 포트폴리오"
 title_separator: "-"
 subtitle: "verson 1.0" # site tagline that appears below site title in masthead
 name: "유지영(Yoo Jiyoung)"
-description: "유지영의 웹 포트폴리오 사이트입니다."
+description: "유지영의 웹 포트폴리오 사이트입니다." # 어디 적용되는 거ㅁ?
 url: "https://y00ooo.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "https://github.com/y00ooo/y00ooo.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -105,7 +105,7 @@ analytics:
 author:
   name: "유지영 (Yoo Jiyoung)"
   avatar: "/assets/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "한줄소개"
+  bio: "간호학, HCI, UX를 공부하고 있습니다. 디지털 헬스케어 UX 연구자가 되는 게 <br>꿈<br>이에요!"
   location: "Seoul, South Korea"
   email: "y00ooo@snu.ac.kr"
   links:
@@ -262,3 +262,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
